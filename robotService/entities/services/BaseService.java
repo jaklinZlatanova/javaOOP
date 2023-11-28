@@ -52,7 +52,7 @@ public abstract class BaseService implements Service {
            sb.append(robotNames);
         }
         sb.append(System.lineSeparator());
-        sb.append(String.format("Supplements: %d Hardness: %d%n", this.supplements.size(),sumHardness()));
+        sb.append(String.format("Supplements: %d Hardness: %d", this.supplements.size(),sumHardness()));
 
         return sb.toString();
     }
